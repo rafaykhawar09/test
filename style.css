@@ -1,0 +1,61 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+     font-family: 'Lilita One', cursive;
+     /* font-family: 'Lobster', cursive;
+     font-family: 'Righteous', cursive;
+     font-family: 'Baloo Bhai', cursive;
+     font-family: 'Luckiest Guy', cursive;
+     font-family: 'Monoton', cursive;
+     font-family: 'Audiowide', cursive;
+     font-family: 'Rye', cursive;
+     font-family: 'Aclonica', sans-serif; */
+}
+
+body{
+     width: 100vw;
+     height: 100vh;
+     position: relative;
+     background-color: black;
+}
+
+.centered{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+.borderBlur{
+     background: white;
+     width: 1000px;
+     height: 500px;
+     background-image: linear-gradient(to right, aqua, deeppink);
+     border-radius: 7px;
+}
+
+.border{
+     background: black;
+     width: 980px;
+     height: 480px;
+     border-radius: 3.5px;
+}
+
+.title{
+     width: 100%;
+     font-size: 72px;
+     text-align: center;
+}
+
+.letters{
+     color: white;
+}
+.letter1{
+     color: aqua;
+}
+
+.letter6{
+     color: deeppink;
+}
